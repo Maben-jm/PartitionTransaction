@@ -1,0 +1,12 @@
+.idea/
+target/
+*.iml
+.DS_Store
+.classpath
+out/
+.mymetadata
+.project
+
+
+
+

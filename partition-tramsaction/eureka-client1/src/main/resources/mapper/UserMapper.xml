@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maben.partition.eureka_client1.mapper.UserMapper">
+    <insert id="insert" parameterType="com.maben.partition.pojo.User" useGeneratedKeys="true"  keyProperty="id">
+        insert into user (name,money) values(#{name},#{money})
+    </insert>
+</mapper>
